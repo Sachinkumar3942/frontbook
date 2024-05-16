@@ -6,7 +6,7 @@ import { differenceInDays, format } from "date-fns";
 import PlaceImg from "./PlaceImg";
 const BookingsPage = () => {
   const [bookings, setBookings] = useState([]);
-  const { id } = useParams();
+  // const { id } = useParams();
   useEffect(() => {
     axios.get("/bookings").then((response) => {
       setBookings(response.data);

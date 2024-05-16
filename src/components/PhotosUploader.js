@@ -67,7 +67,7 @@ const PhotosUploader = ({ photos, onChange }) => {
   const setAsMain=(filename)=>{
     let pos=0;
     for(let i=0;i<photos.length;i++){
-      if(photos[i]==filename){
+      if(photos[i]===filename){
         pos=i;
         break;
       }

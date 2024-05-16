@@ -5,7 +5,7 @@ const AddressLink = ({children}) => {
     <div>
         <a
         className=" my-3 block font-semibold underline"
-        target="_blank"
+        target="_blank" rel="noreferrer"
         href={"https://maps.google.com/?q=" + children}
       >
         {children}

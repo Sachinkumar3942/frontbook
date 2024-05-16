@@ -36,6 +36,7 @@ const PlaceGallery = ({place}) => {
               <img
                 className=" max-h-[100dvh] p-2 flex items-center justify-center "
                 src={"http://localhost:5600/uploads/" + photo}
+                alt="image"
               />
             </div>
           ))}
